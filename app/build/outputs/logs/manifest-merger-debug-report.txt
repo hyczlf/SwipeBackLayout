@@ -1,0 +1,229 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:2:1-59:12
+MERGED from [:library] C:\Users\hyczlf\SwipeBackLayout\library\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\f3f0b79eecc96cb8ed09b36ee839047a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\685a0344b6bc0694f6948b261ad3524b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\b145d43d2f431e7ebf7f635e7d20ad12\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\4eb942ff1aa7bf47c63c79b1c0de36e8\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\cffb1adaea84d406982f07d1befee075\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\baa80058b770a4eda93e9ddae0f241dc\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\b0b5b07b0890558f7a026bcc585e0ba0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\c055d461bda37225119d3a7522730592\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\887dc47567eea956faf51fb2ca23adf5\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\4044724018e80a1a80dabfae8d0b9506\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\8cdae064f6f9cc802fd40eea04eed73f\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:2:1-59:12
+	package
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:2:1-59:12
+		INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:2:1-59:12
+		INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:7:22-77
+application
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:9:5-57:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\f3f0b79eecc96cb8ed09b36ee839047a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\f3f0b79eecc96cb8ed09b36ee839047a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\685a0344b6bc0694f6948b261ad3524b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\685a0344b6bc0694f6948b261ad3524b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\b145d43d2f431e7ebf7f635e7d20ad12\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\b145d43d2f431e7ebf7f635e7d20ad12\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\4eb942ff1aa7bf47c63c79b1c0de36e8\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\4eb942ff1aa7bf47c63c79b1c0de36e8\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\cffb1adaea84d406982f07d1befee075\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\cffb1adaea84d406982f07d1befee075\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\baa80058b770a4eda93e9ddae0f241dc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\baa80058b770a4eda93e9ddae0f241dc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\b0b5b07b0890558f7a026bcc585e0ba0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\b0b5b07b0890558f7a026bcc585e0ba0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\c055d461bda37225119d3a7522730592\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\c055d461bda37225119d3a7522730592\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\887dc47567eea956faf51fb2ca23adf5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\887dc47567eea956faf51fb2ca23adf5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\4044724018e80a1a80dabfae8d0b9506\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\4044724018e80a1a80dabfae8d0b9506\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\8cdae064f6f9cc802fd40eea04eed73f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\8cdae064f6f9cc802fd40eea04eed73f\AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:16:9-40
+	android:name
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:10:9-40
+activity#com.gw.swipebacksample.MainActivity
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:17:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.gw.swipebacksample.activity.CommonActivity
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:24:9-26:67
+	android:theme
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:26:13-64
+	android:name
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:25:13-52
+activity#com.gw.swipebacksample.activity.WxCommonActivity
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:27:9-29:67
+	android:theme
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:29:13-64
+	android:name
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:28:13-54
+activity#com.gw.swipebacksample.activity.CommonAttachToActivity
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:30:9-32:67
+	android:theme
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:32:13-64
+	android:name
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:31:13-60
+activity#com.gw.swipebacksample.activity.ScrollViewActivity
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:33:9-35:67
+	android:theme
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:35:13-64
+	android:name
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:34:13-56
+activity#com.gw.swipebacksample.activity.HorizontalScrollViewActivity
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:36:9-38:67
+	android:theme
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:38:13-64
+	android:name
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:37:13-66
+activity#com.gw.swipebacksample.activity.NestedScrollViewActivity
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:39:9-41:67
+	android:theme
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:41:13-64
+	android:name
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:40:13-62
+activity#com.gw.swipebacksample.activity.ListViewActivity
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:42:9-44:67
+	android:theme
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:44:13-64
+	android:name
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:43:13-54
+activity#com.gw.swipebacksample.activity.RecyclerViewActivity
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:45:9-47:67
+	android:theme
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:47:13-64
+	android:name
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:46:13-58
+activity#com.gw.swipebacksample.activity.ViewPagerActivity
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:48:9-50:67
+	android:theme
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:50:13-64
+	android:name
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:49:13-55
+activity#com.gw.swipebacksample.activity.WebViewActivity
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:51:9-53:67
+	android:theme
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:53:13-64
+	android:name
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:52:13-53
+activity#com.gw.swipebacksample.activity.SwipeRefreshLayoutActivity
+ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:54:9-56:67
+	android:theme
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:56:13-64
+	android:name
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml:55:13-64
+uses-sdk
+INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml
+MERGED from [:library] C:\Users\hyczlf\SwipeBackLayout\library\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:library] C:\Users\hyczlf\SwipeBackLayout\library\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\f3f0b79eecc96cb8ed09b36ee839047a\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\f3f0b79eecc96cb8ed09b36ee839047a\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\685a0344b6bc0694f6948b261ad3524b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\685a0344b6bc0694f6948b261ad3524b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\b145d43d2f431e7ebf7f635e7d20ad12\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\b145d43d2f431e7ebf7f635e7d20ad12\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\4eb942ff1aa7bf47c63c79b1c0de36e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\4eb942ff1aa7bf47c63c79b1c0de36e8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\cffb1adaea84d406982f07d1befee075\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\cffb1adaea84d406982f07d1befee075\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\baa80058b770a4eda93e9ddae0f241dc\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\baa80058b770a4eda93e9ddae0f241dc\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\b0b5b07b0890558f7a026bcc585e0ba0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\b0b5b07b0890558f7a026bcc585e0ba0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\c055d461bda37225119d3a7522730592\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\c055d461bda37225119d3a7522730592\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\887dc47567eea956faf51fb2ca23adf5\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\887dc47567eea956faf51fb2ca23adf5\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\4044724018e80a1a80dabfae8d0b9506\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\4044724018e80a1a80dabfae8d0b9506\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\8cdae064f6f9cc802fd40eea04eed73f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\8cdae064f6f9cc802fd40eea04eed73f\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\f3f0b79eecc96cb8ed09b36ee839047a\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hyczlf\SwipeBackLayout\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\f3f0b79eecc96cb8ed09b36ee839047a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\b145d43d2f431e7ebf7f635e7d20ad12\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\b145d43d2f431e7ebf7f635e7d20ad12\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\4eb942ff1aa7bf47c63c79b1c0de36e8\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.4.0.aar\4eb942ff1aa7bf47c63c79b1c0de36e8\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\cffb1adaea84d406982f07d1befee075\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.4.0.aar\cffb1adaea84d406982f07d1befee075\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\baa80058b770a4eda93e9ddae0f241dc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\baa80058b770a4eda93e9ddae0f241dc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\b0b5b07b0890558f7a026bcc585e0ba0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\b0b5b07b0890558f7a026bcc585e0ba0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\c055d461bda37225119d3a7522730592\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\c055d461bda37225119d3a7522730592\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\887dc47567eea956faf51fb2ca23adf5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\887dc47567eea956faf51fb2ca23adf5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\4044724018e80a1a80dabfae8d0b9506\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\4044724018e80a1a80dabfae8d0b9506\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\8cdae064f6f9cc802fd40eea04eed73f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\8cdae064f6f9cc802fd40eea04eed73f\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\f3f0b79eecc96cb8ed09b36ee839047a\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.4.0] C:\Users\hyczlf\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\f3f0b79eecc96cb8ed09b36ee839047a\AndroidManifest.xml:27:13-51

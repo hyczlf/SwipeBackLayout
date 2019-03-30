@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    buildToolsVersion '28.0.3'
     defaultConfig {
         applicationId "com.gw.swipebacksample"
         minSdkVersion 14
@@ -20,6 +20,7 @@ android {
 }
 
 dependencies {
+    implementation project(":library")
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:25.4.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
@@ -28,5 +29,4 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.2'
 
     implementation "com.android.support:recyclerview-v7:25.4.0"
-    implementation 'com.gongwen:swipeback:1.0.2'
 }
