@@ -8,6 +8,6 @@
     app:maskAlpha="125"
     app:swipeBackFactor="0.5">
 
-    <include layout="@layout/activity_attach_to_common"></include>
+    <include layout="@layout/activity_attach_to_common" />
 
 </com.gw.swipeback.SwipeBackLayout>

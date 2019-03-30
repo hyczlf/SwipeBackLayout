@@ -5,6 +5,10 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.LinearGradient;
+import android.graphics.Paint;
+import android.graphics.RectF;
+import android.graphics.Shader;
 import android.support.annotation.FloatRange;
 import android.support.annotation.IntDef;
 import android.support.annotation.IntRange;
@@ -29,6 +33,12 @@ import java.lang.annotation.RetentionPolicy;
 
 public class SwipeBackLayout extends ViewGroup {
     private static final String TAG = "SwipeBackLayout";
+
+    private int shadowLeft = 0;
+
+    private int shadowWidth = 45;
+
+    private static final int SHADOW_END_COLOR = 0x4D000000;
 
     public static final int FROM_LEFT = 1 << 0;
     public static final int FROM_RIGHT = 1 << 1;
@@ -141,7 +151,25 @@ public class SwipeBackLayout extends ViewGroup {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        canvas.drawARGB(maskAlpha - (int) (maskAlpha * swipeBackFraction), 0, 0, 0);
+        int alpha = maskAlpha - (int) (maskAlpha * swipeBackFraction);
+        canvas.drawARGB(alpha, 0, 0, 0);
+        drawEdgeShadow(canvas, alpha);
+    }
+
+    private void drawEdgeShadow(Canvas canvas, int alpha) {
+
+        int start = shadowLeft;
+
+        Paint paint = new Paint();
+        paint.setAntiAlias(true);
+
+        LinearGradient linearGradient = new LinearGradient(start - shadowWidth, 0, start, 0, Color.TRANSPARENT, SHADOW_END_COLOR, Shader.TileMode.CLAMP);
+        paint.setShader(linearGradient);
+        paint.setStrokeWidth(shadowWidth);
+        paint.setAlpha(255 * alpha / maskAlpha);
+
+        RectF rectF = new RectF(start - shadowWidth, 0, start, getMeasuredHeight());
+        canvas.drawRoundRect(rectF, 0, 0, paint);
     }
 
     @Override
@@ -238,6 +266,7 @@ public class SwipeBackLayout extends ViewGroup {
                 case FROM_LEFT:
                 case FROM_RIGHT:
                     swipeBackFraction = 1.0f * left / width;
+                    shadowLeft = left;
                     break;
                 case FROM_TOP:
                 case FROM_BOTTOM:
